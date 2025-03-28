@@ -7,7 +7,7 @@ body{
     margin: 0;
     background-color: rgba(250, 250, 250, 1);
     color: rgba(9, 9, 9, 1);
-    padding: 0 4rem;
+    padding: 0rem;
 }
 
 /* Style GUIDE*/
@@ -88,17 +88,17 @@ button{
 
 .u-section{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 7rem 0;
+    padding: 7rem 0rem;
 }
 
 .u-container{
-    width: 100%;
-    max-width: 94rem; /*1500px*/
+    width: 94%;
+    max-width: 100rem; /*1500px*/
     height: 100%;
 }
 
@@ -110,15 +110,20 @@ button{
     left: 0;
     width: 100%;
     background-color: rgba(250, 250, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar ul{
     list-style-type: none;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: end;
+    align-items: center;
     gap: 2rem;
-    padding: 0.7rem 4rem;
+    padding: 0.7rem 0rem;
+    width: 94%;
+    max-width: 100rem;;
 }
 
 /* Homepage */
@@ -222,13 +227,11 @@ button{
 
 /* Footer */
 
-.footer_section{
-    margin-top: 4rem;
-    width: 100%;
+.footer{
     background-color: rgba(9, 9, 9, 1);
 }
 
-.footer_container{
+.footer_content{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
