@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 body{
     margin: 0;
     background-color: rgba(250, 250, 250, 1);
@@ -291,5 +295,17 @@ main{
     align-items: flex-start;
     gap: 2.5rem;
     height: auto;
+    color: rgba(250, 250, 250, 1);
+}
+
+.contact_info{
+    display: flex;
+    gap: 1rem;
+    color: rgba(250, 250, 250, 1);
+}
+
+.contact_info a{
+    display: flex;
+    gap: 1rem;
     color: rgba(250, 250, 250, 1);
 }
