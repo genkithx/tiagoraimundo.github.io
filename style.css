@@ -47,6 +47,16 @@ h3{
     margin: 0;
 }
 
+h4{
+    font-size: 2rem; /*32px*/
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    padding: 0;
+    margin: 0;
+}
+
 p{
     font-size: 1rem; /*16px*/
     font-weight: 500;
@@ -101,7 +111,7 @@ button{
     padding: 7rem 0rem;
 }
 
-.u-container{
+main{
     width: 94%;
     max-width: 100rem; /*1500px*/
     height: 100%;
@@ -151,11 +161,13 @@ button{
 .hero_img{
     height: 60rem;
     width: 100%;
-    background-image: url(imagens/hero-img.webp);
+    background-image: url(imagens/hero-img2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+/* About container */
 
 .about_container {
     width: 100%;
@@ -170,8 +182,26 @@ button{
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 4rem;
     align-items: flex-start;
+}
+
+.services_list{
+    width: 100%;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: solid;
+    border-color: rgba(0, 0, 0, .1);
+    border-width: 0.1rem;
+}
+
+.service p{
+    color: gray;
 }
 
 /* Works Section */
@@ -195,33 +225,50 @@ button{
     gap: 1rem;
 }
 
-.projects_grid .projects_row .item_1{
-    background-color: gray;
+.projects_grid .projects_row .item{
     height: 100%;
     width: 50%;
     cursor: pointer;
+    overflow: hidden;
 }
 
-.projects_grid .projects_row .item_2{
-    background-color: gray;
-    height: 100%;
-    width: 50%;
-    cursor: pointer;
+.projects_grid .projects_row .item:hover h3{
+    opacity: 1;
+    transform: translate(-50%, -50%);
 }
 
-.projects_grid .projects_row .item_3{
-    background-color: gray;
-    height: 100%;
-    width: 50%;
-    cursor: pointer;
+.projects_grid .projects_row .item:hover img{
+    /*filter: brightness(0.3);*/
+    filter: blur(0.5rem);
+    transform: scale(1.1);
 }
 
-.projects_grid .projects_row .item_4{
+
+.projects_row .image_container{
     background-color: gray;
     height: 100%;
-    width: 50%;
-    cursor: pointer;
+    width: 100%;
+    position: relative;
 }
+
+.projects_row .image_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.projects_row .image_container h3{
+    position: absolute;
+    color: rgba(250, 250, 250, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    mix-blend-mode: difference;
+}
+
 
 .works_container button{
     width: 100%;
