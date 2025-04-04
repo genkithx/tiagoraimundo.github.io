@@ -124,7 +124,7 @@ button{
 
 main{
     width: 94%;
-    max-width: 100rem; /*1500px*/
+    max-width: 110rem; /*1500px*/
     height: 100%;
 }
 
@@ -376,3 +376,67 @@ main{
     height: 64rem;
     min-height: 64rem;
 }
+
+/* ARCHIVE */
+
+.archives_section{
+    height: 100vh;
+    padding: 0;
+}
+
+.archives_section header{
+    width: 93%;
+    padding: 7.5rem 0;
+}
+
+.archives_section main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.archives_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 5rem 0;
+    width: 98%;
+}
+
+.archive_item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    width: 174.4px;
+    height: 0;
+    transition: 0.2s ease;
+}
+
+.archive_item .img_container {
+    width: 100%;
+    transform: translate(0, -100%);
+    transition: 0.2s ease;
+    height: 200px;
+}
+
+.archive_item:hover {
+    width: 400px; /* Expande apenas na largura */
+}
+
+.archive_item:hover .img_container{
+    height: 400px; /* Expande apenas na largura */
+}
+
+.archive_item .img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
