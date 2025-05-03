@@ -439,4 +439,12 @@ main{
 }
 
 
+/* PROJECT */
 
+.project-hero-section { 
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
