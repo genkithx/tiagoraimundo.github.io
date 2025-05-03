@@ -253,8 +253,8 @@ main{
 }
 
 .projects_grid .projects_row .item:hover img{
-    /*filter: brightness(0.3);*/
-    filter: blur(0.5rem);
+    filter: brightness(0.2);
+    /*filter: blur(0.5rem);*/
     transform: scale(1.1);
 }
 
@@ -281,7 +281,7 @@ main{
     transform: translate(-50%, 50%);
     opacity: 0;
     transition: all 0.5s ease;
-    mix-blend-mode: difference;
+    /*mix-blend-mode: difference;*/
 }
 
 
