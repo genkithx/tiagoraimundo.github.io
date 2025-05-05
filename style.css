@@ -149,7 +149,9 @@ main{
     gap: 2rem;
     padding: 1.5rem 0rem;
     width: 94%;
-    max-width: 100rem;;
+    max-width: 100rem;
+    
+    
 }
 
 /* Homepage */
@@ -441,10 +443,89 @@ main{
 
 /* PROJECT */
 
-.project-hero-section { 
-    height: 100vh;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.project_hero_section { 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_hero_section main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.project_hero_section .image_container{
+    height: 41rem;
+    width: 100%;
+}
+
+.project_hero_section .image_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project_hero_section .content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project_hero_section .right, .project_hero_section .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project_hero_section .right .tag_wrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag_wrapper ul{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag_wrapper ul li{
+    background-color: #EEEEEE;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Gallery */
+
+.gallery{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gallery li{
+    height: 50rem;
+}
+
+.gallery ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.gallery ul li{
+    width: 50%;
+    height: 50rem;
+}
+
+.gallery li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
