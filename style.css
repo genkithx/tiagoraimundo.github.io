@@ -91,12 +91,11 @@ a{
 }
 
 a:hover{
-    text-decoration: line-through;
     color: rgba(79, 71, 237, 1);
 }
 
 button{
-    font-size: 3rem; /*48px*/
+    font-size: 2rem; /*48px*/
     font-weight: 500;
     font-family: "Inter", sans-serif;
     line-height: 1.1em;
@@ -107,8 +106,12 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
-    color: rgba(79, 71, 237, 1);
+    color: #000000;
     height: 0;
+}
+
+button:hover{
+    color: rgba(79, 71, 237, 1);
 }
 /* Utility classes */
 
