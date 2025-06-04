@@ -388,11 +388,13 @@ main{
 .archives_section{
     height: 100vh;
     padding: 0;
+    overflow: hidden;
 }
 
 .archives_section header{
     width: 93%;
     padding: 7.5rem 0;
+    
 }
 
 .archives_section main{
@@ -403,47 +405,45 @@ main{
     width: 100%;
 }
 
-.archives_list {
+.archives_list{
+    width: 100%;
     list-style: none;
-    display: flex;
-    justify-content: end;
+    display:flex;
+    justify-content: flex-start;
+    align-items: end;
     gap: 1rem;
+    padding-left: 30rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2.5rem;
+    overflow-x: auto;
+}
+
+.archives_list::-webkit-scrollbar{
+    width: 0;
+}
+
+.archives_list .item{
+    min-width: 200px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.archives_list .item .image_container{
     width: 100%;
-    padding: 5rem 0;
-    width: 98%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-.archive_item {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1rem;
-    width: 174.4px;
-    height: 0;
-    transition: 0.2s ease;
-}
-
-.archive_item .img_container {
-    width: 100%;
-    transform: translate(0, -100%);
-    transition: 0.2s ease;
-    height: 200px;
-}
-
-.archive_item:hover {
-    width: 400px; /* Expande apenas na largura */
-}
-
-.archive_item:hover .img_container{
-    height: 400px; /* Expande apenas na largura */
-}
-
-.archive_item .img_container img {
+.archives_list .item .image_container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+.archives_list .item:hover{
+    width: 400px; /* Expande apenas na largura */
+}
 
 /* PROJECT */
 
