@@ -53,3 +53,16 @@
         transform: translateY(0) scale(1);
     }
 }
+
+.xShow {
+    animation: xShow both;
+    animation-duration: 3s;
+}
+@keyframes xShow {
+    from {
+        transform: translatex(85%);
+    }
+    to {
+        transform: translatex(0);
+    }
+}
