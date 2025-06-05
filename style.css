@@ -217,7 +217,7 @@ main{
 .hero_img{
     height: 60rem;
     width: 100%;
-    background-image: url(imagens/hero-img2.webp);
+    background-image: url(imagens/hero-img.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

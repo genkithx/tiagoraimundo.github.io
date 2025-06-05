@@ -13,6 +13,32 @@
     }
 }
 
+.xShow {
+    animation: xShow both;
+    animation-duration: 3s;
+}
+@keyframes xShow {
+    from {
+        transform: translatex(85%);
+    }
+    to {
+        transform: translatex(0);
+    }
+}
+
+.videoShow {
+    animation: videoShow both;
+    animation-duration: 3s;
+}
+@keyframes videoShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .imgAppear{
     animation: imgAppear both;
     animation-timeline: view(100% 60%);
@@ -51,18 +77,5 @@
     }
     to {
         transform: translateY(0) scale(1);
-    }
-}
-
-.xShow {
-    animation: xShow both;
-    animation-duration: 3s;
-}
-@keyframes xShow {
-    from {
-        transform: translatex(85%);
-    }
-    to {
-        transform: translatex(0);
     }
 }
