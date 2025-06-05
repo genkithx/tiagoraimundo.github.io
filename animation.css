@@ -79,3 +79,13 @@
         transform: translateY(0) scale(1);
     }
 }
+
+@media (max-width: 768px) {
+    .logoAnim{
+        animation: none;
+    }
+
+    .imgAppear{
+        animation: none;
+    }
+}
