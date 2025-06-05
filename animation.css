@@ -1,0 +1,55 @@
+.yShow{
+    animation: yShow both;
+    animation-timeline: view(65% auto);
+}
+@keyframes yShow {
+    from {
+        transform: translateY(200px) scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.imgAppear{
+    animation: imgAppear both;
+    animation-timeline: view(100% 60%);
+}
+
+@keyframes imgAppear {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.logoAnim{
+    animation: logoAnim both;
+    animation-timeline: view(0% 100%);
+}
+
+@keyframes logoAnim {
+    from {
+        transform: translateY(60%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.imgShow{
+    animation: imgShow both;
+    animation-timeline: view(65% auto);
+}
+@keyframes imgShow {
+    from {
+        transform: translateY(300px) scale(0.95);
+    }
+    to {
+        transform: translateY(0) scale(1);
+    }
+}

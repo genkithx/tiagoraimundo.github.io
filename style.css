@@ -15,6 +15,9 @@
 
 html{
     scroll-behavior: smooth;
+    scrollbar-width: none; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    cursor: none;
 }
 
 ::-webkit-scrollbar{
@@ -26,23 +29,6 @@ body{
     color: rgba(9, 9, 9, 1);
     padding: 0rem;
     cursor: none;
-}
-
-.autoShow{
-    animation: reveal both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 100vh;
-}
-
-@keyframes reveal {
-    from {
-        opacity: 0;
-        transform: translateY(400px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 #meu_cursor_delay {
