@@ -60,7 +60,7 @@
 
 @keyframes logoAnim {
     from {
-        transform: translateY(60%);
+        transform: translateY(70%);
     }
     to {
         transform: translateY(0);
