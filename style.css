@@ -64,6 +64,12 @@ body{
   mix-blend-mode: difference;
 }
 
+@media (hover:none), (pointer: coarse){
+    #meu_cursor_delay, #meu_cursor{
+        display: none !important;
+    }
+}
+
 /* Style GUIDE*/
 
 h1{
