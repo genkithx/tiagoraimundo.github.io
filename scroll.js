@@ -11,7 +11,7 @@ function allowNativeScroll(event) {
     const isTryingToScrollHorizontally = Math.abs(event.deltaX) > Math.abs(event.deltaY);
 
     if (canScrollX && isTryingToScrollHorizontally) {
-      return true; // Permite scroll horizontal nativo
+      return true; // Permite o scroll horizontal nativo
     }
 
     el = el.parentElement;

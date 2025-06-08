@@ -18,7 +18,7 @@ function setup() {
   current_x = mouseX;
   current_y = mouseY;
 
-  // detectar hover em elementos interativos
+  // detetar hover em elementos interativos
   const hoverables = document.querySelectorAll("a, button, input, textarea, select, [role='button']");
   hoverables.forEach(el => {
     el.addEventListener("mouseenter", () => isHovering = true);
@@ -35,7 +35,7 @@ function draw() {
   current_x = lerp(current_x, target_x, lerpAmount);
   current_y = lerp(current_y, target_y, lerpAmount);
 
-  // Define tamanho alvo com base no hover
+  // Define o tamanho alvo com base no hover
   targetSize = isHovering ? 90 : 60;
 
   // Interpolação suave do tamanho
