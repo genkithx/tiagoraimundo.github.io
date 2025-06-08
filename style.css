@@ -425,6 +425,7 @@ main{
 
     .projects_grid .projects_row .item{
         width: 100%;
+        height: 100rem;
     }
 
     
@@ -448,6 +449,7 @@ main{
 
     .projects_grid .projects_row .item{
         width: 100%;
+        height: 52rem;
     }
 
     .projects_row .image_container h3{
