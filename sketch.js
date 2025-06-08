@@ -1,3 +1,23 @@
+/*
+Nome e Número de estudante
+Tiago Pinto Raimundo 3220795
+
+Data
+08/06/2024
+
+Nome do Exercício
+Portfolio
+
+Época de Avaliação Continua (durante as aulas)
+
+Ano Letivo (3º, 2024-2025), 
+Semestre (2º), 
+Unidade Curricular (Laboratório de Projeto II), 
+Curso (DGM), 
+Escola (ESAD.CR), 
+Docente (Marco Heleno).
+*/
+
 let cursor_delay_element, cursor_element;
 let current_x, current_y;
 let target_x, target_y;
