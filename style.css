@@ -834,6 +834,7 @@ main{
     
     .project_hero_section main{
         padding: 1.5rem 0;
+        gap: 2.5rem;
     }
     
     .project_hero_section .content{

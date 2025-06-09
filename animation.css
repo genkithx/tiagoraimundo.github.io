@@ -108,4 +108,8 @@ Docente (Marco Heleno).
     .imgAppear{
         animation: none;
     }
+
+    .imgShow{
+        animation: none;
+    }
 }
