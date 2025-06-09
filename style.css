@@ -692,18 +692,19 @@ main{
 @media screen and (max-width: 1200px) {
     
     .archives_section{
-        height: 93vh;
+        height: auto;
         padding: 5rem 0 2.5rem 0;
     }
 
     .archives_section main{
         justify-content: flex-start;
-        gap: 7rem;
+        gap: 20rem;
     }
 
     .archives_section header{
         padding: 2.5rem 0;
     }
+
 
     .archives_section header img{
         width: 80%;
@@ -726,6 +727,15 @@ main{
 
     .archives_list .item:hover{
         width: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+   
+    .archives_section main{
+        justify-content: flex-start;
+        gap: 7rem;
     }
 }
 
