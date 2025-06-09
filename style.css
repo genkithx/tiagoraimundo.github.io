@@ -698,7 +698,7 @@ main{
 
     .archives_section main{
         justify-content: flex-start;
-        gap: 5rem;
+        gap: 7rem;
     }
 
     .archives_section header{
