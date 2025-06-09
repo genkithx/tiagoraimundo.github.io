@@ -179,7 +179,7 @@ button:hover{
     cursor: none;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     h2{
         font-size: 5rem; /*80px*/
@@ -263,7 +263,7 @@ main{
     background-size: cover;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .hero_img{
         height: 40rem;
     }
@@ -273,7 +273,7 @@ main{
     }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .hero_img{
         height: 20rem;
     }
@@ -321,7 +321,7 @@ main{
     color: gray;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     .about_container{
         align-items: center;
@@ -415,7 +415,7 @@ main{
     gap: 2.5rem;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     .projects_row{
         flex-direction: column;
@@ -431,7 +431,7 @@ main{
     
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     
     .works_container{
         align-items: start;
@@ -593,7 +593,7 @@ main{
     min-height: 64rem;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     .footer{
         height: auto;
@@ -710,7 +710,7 @@ main{
     width: 400px; /* Expande apenas na largura */
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     .archives_section{
         height: 93vh;
@@ -849,7 +849,7 @@ main{
     margin-top: 2.5rem;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     
     .project_hero_section .content{
         flex-direction: column;
