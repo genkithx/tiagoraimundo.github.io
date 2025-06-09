@@ -667,8 +667,8 @@ main{
 }
 
 .archives_list .item{
-    min-width: 200px;
-    width: 200px;
+    min-width: 12.5rem; /* 200px */
+    width: 12.5rem; /* 200px */
     transition: all 0.6s ease;
 }
 
@@ -686,7 +686,7 @@ main{
 }
 
 .archives_list .item:hover{
-    width: 400px; /* Expande apenas na largura */
+    width: 25rem; /* Expande apenas na largura */
 }
 
 @media screen and (max-width: 1200px) {
@@ -707,9 +707,6 @@ main{
     .archives_list{
         padding-left: 2.5rem;
         padding-right: 0;
-        /*width: 93%;*/
-        /*overflow-x: none;*/
-        /*flex-direction: column;*/
         align-items: center;
     }
 
@@ -718,8 +715,8 @@ main{
     }
 
     .archives_list .item{
-        min-width: 400px;
-        width: 400px;
+        min-width: 15rem;
+        width: 15rem;
     }
 
     .archives_list .item:hover{
@@ -836,15 +833,16 @@ main{
     }
 
     .project_hero_section .right, .project_hero_section .left{
-        width: 100% !important;
+        width: 100%;
     }
 
     .gallery ul li{
-        width: 100% !important;
+        width: 100%;
+        height: auto;
     }
     
     .project_hero_section .image_container{
-        height: 30rem !important;
+        height: auto;
     }
 
     .gallery ul{
