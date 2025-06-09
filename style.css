@@ -836,7 +836,7 @@ main{
     }
 
     .project_hero_section .right, .project_hero_section .left{
-        width: 100%;
+        width: 100% !important;
     }
 
     .gallery ul li{
@@ -844,7 +844,7 @@ main{
     }
     
     .project_hero_section .image_container{
-        height: 30rem;
+        height: 30rem !important;
     }
 
     .gallery ul{
